@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Araiya Anthology - Wireframe</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand img">
+        <img src="css/img/logo.jpg" >
+      </div>
+      <ul class="nav-links">
+        <li class="dropdown">
+          <a href="#">Suites </a>
+        </li>
+        <li class="dropdown">
+          <a href="#">Experiences  </a>
+        </li>
+        <li><a href="#">Packages</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Journal</a></li>
+      </ul>
+      <a class="booking-btn" href="#">Bookings</a>
+    </div>
+  </nav>
+  
+
+  <div class="hero">
+    <img src="css/img/main.jpg" >
+  </div>
+
+  <section class="section">
+    <h2>Our Hotels</h2>
+    <div class="columns">
+      <div class="box"><img src="css/img/hotel1.jpg" ></div>
+        <div class="box"><img src="css/img/hotel2.jpg" ></div>
+      <div> 
+        Kinwani House is the art deco private home of one of the Prince's of the erstwhile state of Tehri-Garhwal, one of the charmed mountain kingdoms. Set high above the holy river Ganges and the towns of Rishikesh and Haridwar, it is a gem that retains its old-world charm, yet having undergone a complete restoration; it boasts all the amenities one expects from a luxury property, including a heated pool and spa. Kinwani House over two floors, comprises six large bedrooms with king-size beds, each with their own ensuite baths, drawing / dressing rooms and five of the six suites have private balconies or decks. The first floor features an enchanting conservatory with a bar and sitting area for an indoor evening under the stars or a special evening of cocktails by candlelight. The house has drawing rooms on both floors and a generous 12 seater dining table in the dining room. Kinwani House is perfect for a larger group, making it the ideal getaway for a special occasion or just to decompress and reconnect.
+      </div>
+    </div>
+  
+  </section>
+
+  <section class="section">
+    <h2>Our Suites</h2>
+    <div class="columns1">
+      <div class="box1"><img src="css/img/maharaja_suite.png" ><a href="#" class="know-more-btn">Know More</a></div>
+      <div class="box1"><img src="css/img/princess_suite.png" ><a href="#" class="know-more-btn">Know More</a></div>
+      <div class="box1"><img src="css/img/raani_suite.png" ><a href="#" class="know-more-btn">Know More</a></div>
+      <div class="box1"><img src="css/img/rajkumar_suite.png" ><a href="#" class="know-more-btn">Know More</a></div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Links Grid -->
+      <div class="footer-grid">
+        <!-- Logo -->
+      <div class="footer-logo">
+        <a href="/">
+          <img src="css/img/logo.jpg" alt="Araiya Anthology Logo">
+        </a>
+      </div>
+        <!-- Discover -->
+        <div class="footer-column">
+          <p class="footer-heading">Discover</p>
+          <ul>
+            <li><a href="">About Araiya</a></li>
+            <li><a href="">Our Properties</a></li>
+            <li><a href="">Journal</a></li>
+            <li><a href="">Experiences</a></li>
+            <li><a href="">Careers</a></li>
+          </ul>
+        </div>
+  
+        <!-- Destinations -->
+        <div class="footer-column">
+          <p class="footer-heading">Destinations</p>
+          
+        </div>
+  
+        <!-- Connect -->
+        <div class="footer-column">
+          <p class="footer-heading">Connect</p>
+          <div class="footer-icons">
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+            <a href=""></a>
+          </div>
+        </div>
+  
+        <!-- Contact -->
+        <div class="footer-column">
+          <p class="footer-heading">Contact</p>
+          <ul>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">email</a></li>
+            <li><a href=""></a>phone</li>
+          </ul>
+        </div>
+  
+      </div>
+  
+      <hr class="footer-divider" />
+  
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          <p>2025 © Araiya Anthology</p>
+          <a href="/terms">Terms of Use</a>
+        </div>
+        <a href="" target="_blank">Site by </a>
+      </div>
+  
+    </div>
+  </footer>
+  
+  
+
+  <script>
+    // JavaScript to handle the dropdown toggle on click
+    const dropdowns = document.querySelectorAll('.dropdown > a');
+
+    dropdowns.forEach(dropdown => {
+      dropdown.addEventListener('click', function(event) {
+        const dropdownMenu = this.nextElementSibling;
+
+        // Toggle the visibility of the dropdown menu
+        if (dropdownMenu.style.display === 'block') {
+          dropdownMenu.style.display = 'none';
+        } else {
+          dropdownMenu.style.display = 'block';
+        }
+
+        // Prevent the default link behavior
+        event.preventDefault();
+      });
+    });
+  </script>
+</body>
+</html>
