@@ -1,6 +1,6 @@
 .footer {
-  background-color: white;
-  color: #82AC6B;
+  background-color:  #5C4E63;
+  color: white;
   font-family: 'Barlow', sans-serif;
   padding: 20px 40px 30px;
 }
@@ -22,6 +22,7 @@
   margin-top: 70px;
   max-width: 350px;
   height: 130px;
+  padding-left: 20px;
 }
 
 .footer-column ul {
@@ -35,11 +36,11 @@
   font-size: 1.2rem;
   margin-bottom: 16px;
   letter-spacing: 2px;
-  color: #82AC6B;
+  color: white;
 }
 
 .footer-column a {
-  color: #82AC6B;
+  color: white;
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
@@ -49,7 +50,7 @@
 }
 
 .footer-column a:hover {
-  color: #82AC6B;
+  color: white;
   transform: scale(1.1);
 }
 
@@ -73,7 +74,7 @@
 }
 .footer-divider1 {
   border: none;
-  border-top: 2px solid #82AC6B;
+  border-top: 2px solid white;
   margin: 20px 0 20px;
 }
 .footer-bottom {
@@ -84,13 +85,13 @@
 }
 
 .footer-bottom a {
-  color: #82AC6B;
+  color: white;
   text-decoration: none;
   margin-left: 20px;
 }
 
 .footer-bottom a:hover {
-  color: #82AC6B;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -111,8 +112,8 @@
 
 /* Footer Column */
 .footer-column {
-  background-color: white; /* Araiya Heritage */
-  color: #82AC6B; /* Araiya Peace */
+  background-color:  #5C4E63; /* Araiya Heritage */
+  color: white; /* Araiya Peace */
   text-align: left;
   
 }
@@ -122,7 +123,7 @@
   font-family: 'Austen', serif;
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #82AC6B; /* Araiya Peace */
+  color:white; /* Araiya Peace */
 }
 
 /* Social Icons Container */

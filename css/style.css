@@ -2,9 +2,9 @@
 body {
   font-family: 'Barlow', sans-serif;
   font-size: 14px;
-  color:  #82AC6B;
+  color:  white;
   line-height: 1.6667;
-  background-color:white;
+  background-color:  #5C4E63;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -12,8 +12,8 @@ body {
 /* Typography */
 h1 {
   font-family: 'Austen', serif;
-  font-size: 2.5rem;
-  color:  #82AC6B;
+  font-size: 1.5rem;
+  color:  white;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -21,8 +21,8 @@ h1 {
 /* Typography */
 h2 {
   font-family: 'Austen', serif;
-  font-size: 2.5rem;
-  color:  #82AC6B;
+  font-size: 1.5rem;
+  color:  white;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -32,8 +32,10 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 70px;
   padding: 20px 0;
-  background: rgba(255, 255, 255, 0.85);
+  background:  #5C4E63;
+  color: white;
   backdrop-filter: blur(8px);
   z-index: 1000;
   font-family: "brandon-grotesque", sans-serif;
@@ -72,7 +74,7 @@ h2 {
 }
 
 .nav-links a {
-  color: #82AC6B;
+  color: white;
   text-decoration: none;
   font-weight: 700;
   padding: 8px 0;
@@ -87,7 +89,7 @@ h2 {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #82AC6B;
+  background-color: white;
   transition: width 0.3s ease;
 }
 
@@ -96,7 +98,7 @@ h2 {
 }
 
 .nav-links a:hover {
-  color: #82AC6B;
+  color: white;
 }
 
 /* Dropdown menu */
@@ -135,8 +137,8 @@ h2 {
 
 /* Booking Button */
 .booking-btn {
-  background-color:  #82AC6B;
-  color: #fff;
+  background-color:white;
+  color:  #5C4E63;
   padding: 12px 24px;
   text-decoration: none;
   border-radius: 30px;
@@ -147,8 +149,8 @@ h2 {
 }
 
 .booking-btn:hover {
-  background-color: white;
-  color:  #82AC6B;
+  background-color:  #5C4E63;
+  color: white;
   transform: translateY(-2px);
 }
 
@@ -241,7 +243,7 @@ h2 {
 .suite-section {
   position: relative;
   padding: 40px 0;
-  background-color: #fff;
+  background-color: #5C4E63;
   text-align: center;
   overflow: hidden;
 }
@@ -266,15 +268,15 @@ h2 {
 
 .suite-slide img {
   width: 100%;
-  height: 500px;
+  height: 670px;
   object-fit: cover;
 }
 
 .suite-caption {
   position: relative;
   bottom: 20px;
-  background: white;
-  color: #82AC6B;
+  background: #5C4E63;
+  color: white;
   padding: 10px 20px;
   font-family: 'Barlow Medium', sans-serif;
 }
@@ -283,8 +285,8 @@ h2 {
   display: inline-block;
   margin-top: 8px;
   padding: 8px 16px;
-  background-color: #82AC6B;
-  color: white;
+  background-color:white;
+  color:#5C4E63;
   text-decoration: none;
   border-radius: 4px;
   font-size: 14px;
@@ -316,7 +318,7 @@ h2 {
 button {
   padding: 10px 20px;
   border: none;
-  background-color: #938a83;
+  background-color: #5C4E63;
   color: #fff;
   cursor: pointer;
   border-radius: 4px;
@@ -325,7 +327,7 @@ button {
 .hotel-slider {
   position: relative;
   overflow: hidden;
-  height: 450px;
+  height: 490px;
 }
 
 .hotel-images {
@@ -405,7 +407,7 @@ button {
 
 
 .hotel-content {
-  padding: 24px 40px 0 40px;
+  padding: 0 40px 0 40px;
 }
 
 .hotel-location {
@@ -420,13 +422,13 @@ button {
 .hotel-title {
   font-family: 'Austen', serif;
   font-size: 1.75rem;
-  color:  #82AC6B;
+  color:white;
   margin-bottom: 16px;
   letter-spacing: 4px;
 }
 
 .hotel-description {
-  color:  #5C4E63;
+  color:white;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 24px;
@@ -435,8 +437,8 @@ button {
 .discover-btn {
   text-decoration: none;
   background-color: transparent;
-  color:  #82AC6B;
-  border: 1px solid #82AC6B;
+  color: white;
+  border: 1px solid white;
   padding: 8px 16px;
   font-weight: bold;
   border-radius: 2px;
@@ -445,25 +447,25 @@ button {
 }
 
 .discover-btn:hover {
-  background-color: #82AC6B;
-  color: #fff;
+  background-color:white;
+  color: #5C4E63;
 }
 
 .kinwani-about {
   padding: 60px 20px;
   background-color: white;
-  color: #82AC6B;
+  color:  #5C4E63;
   font-family: 'Barlow', sans-serif;
 }
 .experience-section {
   font-family: 'Barlow', sans-serif;
-  background-color: white;
+  background-color: #5C4E63;
   padding: 40px 0;
   height: fit-content;
 }
 
 .experience-slider {
-  border: 2px solid #82AC6B;
+  border: 2px solid white;
   position: relative;
   max-width: 100%;
   margin: auto;
@@ -503,14 +505,14 @@ button {
 
 .text-box h2 {
   font-family: 'Austen', serif;
-  color: #82AC6B;
+  color:white;
   font-size: 28px;
   margin-bottom: 16px;
 }
 
 .text-box p {
   font-size: 1.1rem;
-  color: #5C4E63;
+  color: white;
   line-height: 1.8;
 }
 
@@ -521,7 +523,7 @@ button {
   transform: translateY(-50%);
   width: 40px;
   height: 40px;
-  color: black;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -553,7 +555,7 @@ button {
 }
 
 .highlight-box {
-  background: #fff;
+  background:  #5C4E63;
   padding: 40px 5%;
   margin: 40px 5%;
   border-radius: 12px;
@@ -562,13 +564,13 @@ button {
 
 .highlight-box h2 {
   font-size: 24px;
-  color:#82AC6B;
+  color:white;
   margin-bottom: 20px;
 }
 
 .highlight-box p {
   font-size: 1rem;
-  color: #5C4E63;
+  color:white;
   line-height: 1.7;
 }
 
