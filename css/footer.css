@@ -1,8 +1,8 @@
 .footer {
-  background-color:  #5C4E63;
-  color: white;
+  background-color: white;
+  color: #5C4E63;
   font-family: 'Barlow', sans-serif;
-  padding: 20px 40px 30px;
+  padding: 20px 0 30px;
 }
 
 .footer-container {
@@ -14,15 +14,15 @@
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
+  gap: 20px;
   align-items: start;
 }
 
 .footer-logo img {
-  margin-top: 70px;
-  max-width: 400px;
-  height: 160px;
-  padding-left: 20px;
+  margin-top: 10px;
+  max-width: 600px;
+  height: 250px;
+  margin-left: -20px;
 }
 
 .footer-column ul {
@@ -36,11 +36,11 @@
   font-size: 1.2rem;
   margin-bottom: 16px;
   letter-spacing: 2px;
-  color: white;
+  color: #5C4E63;
 }
 
 .footer-column a {
-  color: white;
+  color: #5C4E63;
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
@@ -50,7 +50,7 @@
 }
 
 .footer-column a:hover {
-  color: white;
+  color: #5C4E63;
   transform: scale(1.1);
 }
 
@@ -74,7 +74,7 @@
 }
 .footer-divider1 {
   border: none;
-  border-top: 2px solid white;
+  border-top: 2px solid #5C4E63;
   margin: 20px 0 20px;
 }
 .footer-bottom {
@@ -85,7 +85,7 @@
 }
 
 .footer-bottom a {
-  color: white;
+  color: #5C4E63;
   text-decoration: none;
   margin-left: 20px;
 }
@@ -112,10 +112,9 @@
 
 /* Footer Column */
 .footer-column {
-  background-color:  #5C4E63; /* Araiya Heritage */
-  color: white; /* Araiya Peace */
+  background-color: white; /* Araiya Heritage */
+  color: #5C4E63; /* Araiya Peace */
   text-align: left;
-  
 }
 
 /* Footer Heading */
@@ -123,7 +122,7 @@
   font-family: 'Austen', serif;
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color:white; /* Araiya Peace */
+  color:#5C4E63; /* Araiya Peace */
 }
 
 /* Social Icons Container */
