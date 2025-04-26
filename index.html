@@ -40,10 +40,11 @@
       </div>
       <div class="arrow left" onclick="moveSlide(-1)">&#10094;</div>
       <div class="arrow right" onclick="moveSlide(1)">&#10095;</div>
+      <div class="indicators" id="indicators"></div>
     </div>
   </div>
   
-  <h1 style="font-size: 28px; margin-bottom: -5px; margin-top: -5px; padding: 20px 0 20px 0;">About Kinwani House</h1>
+  <h1 style="font-size: 28px; margin-bottom: -5px; margin-top: -5px; padding: 40px 0 40px 0;">About Kinwani House</h1>
   <section class="hotel-section" style="background-color: white; color: #5C4E63; padding-bottom: 20px;">
     <div class="hotel-container">
       <div class="hotel-card">
@@ -69,75 +70,86 @@
     </div>
   </section>
 
-    <h2 style="font-size: 28px;">Our Suites</h2>
-    <section class="suite-section">
-      <div class="suite-slider">
-        <div class="suite-images" id="suiteImages">
-          <div class="suite-slide">
-            <img src="css/img/maharajasuite.jpg" alt="Maharaja Suite">
-            <div class="suite-caption">
+  <h2 style="font-size: 28px; padding-top: 40px;">Our Suites</h2>
+  <section class="suite-carousel-section">
+    <div class="carousel-outer-wrapper">
+    <div class="carousel-container">
+      <div class="carousel-window">
+        <div class="carousel-track">
+          <div class="suite-box">
+            <img src="css/img/maharajasuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
               <h3>Maharaj’s Suite - 1766 sq. ft</h3>
-              <a href="#" class="know-more-btn">Know More</a>
+              <p>Experience luxury in our Maharaj's Suite, featuring two expansive bedrooms, each complete with its own ensuite bath, elegant sitting rooms and private balconies that add to the suite's allure. Enjoy breathtaking views of the majestic mountains, Ganges River and town of Haridwar and Rishikesh below. Unwind in your private drawing room with a large balcony for apéritifs or high tea and a game of charades perhaps.</p>
+              <button class="book-now-btn">Book Now</button>
             </div>
           </div>
-          <div class="suite-slide">
-            <img src="css/img/princesssuite.jpg" alt="Princess Suite">
-            <div class="suite-caption">
+          <div class="suite-box">
+            <img src="css/img/princesssuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
               <h3>Princess Suite – 1190 sq. ft</h3>
-              <a href="#" class="know-more-btn">Know More</a>
+              <p>Discover unmatched luxury in our Princess Suite, where a lavish king-size bed, ensuite bathroom, combined lounge area and study, and private balcony await your arrival. Additionally, the room provides direct access to a spacious outdoor sitting area, ideal for savouring a hot cup of tea or coffee while admiring the panoramic views of the valley. Immerse yourself in opulence and comfort with meticulous attention to detail, guaranteeing a truly grand experience throughout your stay.</p>
+              <button class="book-now-btn">Book Now</button>
             </div>
           </div>
-          <div class="suite-slide">
-            <img src="css/img/raanisuite.jpg" alt="Raani Suite">
-            <div class="suite-caption">
-              <h3>Rani Suite – 615 sq. ft</h3>
-              <a href="#" class="know-more-btn">Know More</a>
-            </div>
-          </div>
-          <div class="suite-slide">
-            <img src="css/img/rajkumarsuite.jpg" alt="Rajkumar Suite">
-            <div class="suite-caption">
+          <div class="suite-box">
+            <img src="css/img/rajkumarsuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
               <h3>Rajkumar Suite – 598 sq. ft</h3>
-              <a href="#" class="know-more-btn">Know More</a>
+              <p>Indulge in the timeless charm of our Rajkumar Suite, boasting a luxurious king-size bed adorned with a dressing room, making it the perfect place to unwind. This elegant suite also has an attached sitting room and private balcony offering stunning views of the valley. Every carefully created detail promises comfort and elegance, ensuring a memorable stay.</p>
+              <button class="book-now-btn">Book Now</button>
             </div>
           </div>
-          <div class="suite-slide">
-            <img src="css/img/kumarisuite.jpg" alt="Rajkumar Suite">
-            <div class="suite-caption">
+          <div class="suite-box">
+            <img src="css/img/raanisuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
+              <h3>Rani Suite – 615 sq. ft</h3>
+              <p>Our Rani Suite is furnished with a spacious king-size bed complemented by an ensuite bathroom and adjoining study room cum drawing room. Adding to its allure, the suite features a private outdoor deck, providing an idyllic setting for tranquil relaxation. Immerse yourself in the refined comfort and timeless elegance of this distinguished suite, where every detail is thoughtfully crafted to ensure an unparalleled experience.</p>
+              <button class="book-now-btn">Book Now</button>
+            </div>
+          </div>
+          <div class="suite-box">
+            <img src="css/img/kumarisuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
               <h3>Kumari Suite - 537 sq. ft</h3>
-              <a href="#" class="know-more-btn">Know More</a>
+              <p>Experience old world charm in luxury during your stay in our Kumari Suite, where every detail is crafted to offer a truly enchanting experience. Delight in the regal ambience of a bedroom suited for royalty, complete with a king-size bed, an ensuite bathroom and a sitting room cum dressing room.</p>
+              <button class="book-now-btn">Book Now</button>
             </div>
           </div>
-          <div class="suite-slide">
-            <img src="css/img/valleysuite.jpg" alt="Rajkumar Suite">
-            <div class="suite-caption">
-              <h3>Valley Suite – 800 sq. ft</h3>
-              <a href="#" class="know-more-btn">Know More</a>
-            </div>
-          </div>
-          <div class="suite-slide">
-            <img src="css/img/campaignsuite.jpg" alt="Rajkumar Suite">
-            <div class="suite-caption">
+          <div class="suite-box">
+            <img src="css/img/campaignsuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
               <h3>Campaign Suite – 1200 sq. ft</h3>
-              <a href="#" class="know-more-btn">Know More</a>
+              <p>Ideal for families or larger groups seeking an immersive experience, our Campaign Suite presents an inviting haven. This expansive suite includes two comfortable bedrooms and a spacious drawing-dining area, while the private deck offers a captivating panorama of Rishikesh's picturesque landscape. Create unforgettable memories in this generously appointed and refined suite, where every detail is designed to enhance your stay.</p>
+              <button class="book-now-btn">Book Now</button>
             </div>
           </div>
-          <div class="suite-slide">
-            <img src="css/img/juniorcampaignsuite.jpg" alt="Rajkumar Suite">
-            <div class="suite-caption">
-              <h3>Junior Campaign Suite – 400 sq. ft </h3>
-              <a href="#" class="know-more-btn">Know More</a>
+          <div class="suite-box">
+            <img src="css/img/valleysuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
+              <h3>Valley Suite – 800 sq. ft</h3>
+              <p>Revel in our Valley Suite's harmonious blend of traditional charm and contemporary comfort. This elegantly appointed suite features a king-size bedroom with mountain-facing views. Additionally, it is connected to a drawing room and dining room, allowing for seamless gatherings and shared moments. Unwind in this serene sanctuary as you create limitless memories that will last a lifetime.</p>
+              <button class="book-now-btn">Book Now</button>
             </div>
           </div>
-          
+          <div class="suite-box">
+            <img src="css/img/juniorcampaignsuite.jpg" class="suite-image" alt="">
+            <div class="suite-text">
+              <h3>Junior Campaign Suite – 400 sq. ft</h3>
+              <p>Named after the enchanting views it captures, our Junior Campaign Suite offers a scenic escape. Designed for ultimate comfort and relaxation, this suite comprises a spacious bedroom adorned with traditional décor and elegant furnishings. Experience this exquisite retreat's perfect blend of old-world charm and modern amenities.</p>
+              <button class="book-now-btn">Book Now</button>
+            </div>
+          </div>
         </div>
-        <div class="arrow left" onclick="changeSuiteSlide(-1)">&#10094;</div>
-        <div class="arrow right" onclick="changeSuiteSlide(1)">&#10095;</div>
       </div>
-    </section>
-    
+    </div>
+    <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+  </section>
 
     <section class="experience-section">
+      <h2 style="font-size: 28px; padding-top: 30px; color: #5C4E63;">Amenties</h2>
       <div class="experience-slider">
         <div class="experience-slides">
           <!-- Slide 1 -->
@@ -285,6 +297,113 @@
         <div class="arrow1 right" onclick="changeSlide(1)">&#10095;</div>
       </div>
     </section>
+
+    <h2 style="font-size: 28px; padding-top: 40px;">Experiences</h2>
+<div class="experience-categories-container">
+    <!-- Outer navigation arrows -->
+    <div class="group-arrow prev">&#10094;</div>
+    <div class="group-arrow next">&#10095;</div>
+    
+    <div class="experience-categories1">
+        <div class="categories-wrapper" id="categoriesWrapper">
+            <!-- Group 1: Wellness + Dining -->
+            <div class="category-group">
+                <div class="category1">
+                    <div class="image-grid1">
+                        <div class="experience-item1 active">
+                            <img src="css/img/ex1.webp" alt="Wellness Experience 1">
+                        </div>
+                        <div class="experience-item1">
+                            <img src="css/img/ex2.webp" alt="Wellness Experience 2">
+                        </div>
+                        <div class="category-arrow left">&#10094;</div>
+                        <div class="category-arrow right">&#10095;</div>
+                    </div>
+                    <h3>Wellness</h3>
+                </div>
+
+                <div class="category1">
+                    <div class="image-grid1">
+                        <div class="experience-item1 active">
+                            <img src="css/img/ex3.webp" alt="Dining Experience 1">
+                        </div>
+                        <div class="experience-item1">
+                            <img src="css/img/ex4.webp" alt="Dining Experience 2">
+                        </div>
+                        <div class="category-arrow left">&#10094;</div>
+                        <div class="category-arrow right">&#10095;</div>
+                    </div>
+                    <h3>Dining</h3>
+                </div>
+            </div>
+            
+            <!-- Group 2: Adventure + Spirituality -->
+            <div class="category-group">
+                <div class="category1">
+                    <div class="image-grid1">
+                        <div class="experience-item1 active">
+                            <img src="css/img/ex5.webp" alt="Adventure Experience 1">
+                        </div>
+                        <div class="experience-item1">
+                            <img src="css/img/ex6.webp" alt="Adventure Experience 2">
+                        </div>
+                        <div class="experience-item1">
+                            <img src="css/img/ex7.webp" alt="Adventure Experience 3">
+                        </div>
+                        <div class="category-arrow left">&#10094;</div>
+                        <div class="category-arrow right">&#10095;</div>
+                    </div>
+                    <h3>Adventure</h3>
+                </div>
+                
+                <div class="category1">
+                    <div class="image-grid1">
+                        <div class="experience-item1 active">
+                            <img src="css/img/ex9.webp" alt="Spiritual Experience 1">
+                        </div>
+                        <div class="experience-item1">
+                            <img src="css/img/ex10.webp" alt="Spiritual Experience 2">
+                        </div>
+                        <div class="category-arrow left">&#10094;</div>
+                        <div class="category-arrow right">&#10095;</div>
+                    </div>
+                    <h3>Spirituality</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <div class="offer-container">
+                <div class="offer-content">
+                    <h1>Special Offers</h1>
+                    <h2 style="color: #5C4E63;">Elevate your Experience with our Exclusive Packages</h2>
+                    
+                    <div class="offer-features">
+                        <div class="offer-feature">Complimentary Breakfast and WiFi</div>
+                        <div class="offer-feature">TDH Lunch/Dinner for two</div>
+                        <div class="offer-feature">60-minute spa treatment</div>
+                        <div class="offer-feature">15% discount on spa & dining</div>
+                        <div class="offer-feature">Complimentary high tea</div>
+                        <div class="offer-feature">Personal butler service</div>
+                        <div class="offer-feature">Early check-in/out</div>
+                        <div class="offer-feature">Room upgrade</div>
+                        <div class="offer-feature">Complimentary yoga session</div>
+                        <div class="offer-feature">Welcome drink</div>
+                    </div>
+                    <div style="padding-left: 60px;">
+                    <p><strong>Meal plans:</strong> Breakfast included all days</p>
+                    <button style="background-color: #82AC6B; color: white;">Book Now</button></div>
+                </div>
+                
+                <div class="image-collage">
+                    <img src="css/img/food.webp" alt="Spa">
+                    <img src="css/img/spa.webp" alt="Dining">
+                    <img src="css/img/nature.webp" alt="Yoga">
+                    <img src="css/img/hotel.webp" alt="Room">
+                </div>
+            </div>
   
   <footer class="footer">
     <div class="footer-container">
@@ -357,6 +476,151 @@
       </div>
     </div>
   </footer>
+<!-- Experience section categories -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const wrapper = document.getElementById('categoriesWrapper');
+        const prevArrow = document.querySelector('.group-arrow.prev');
+        const nextArrow = document.querySelector('.group-arrow.next');
+        let currentGroup = 0;
+        const groupCount = 2;
+        
+        // Initialize all category sliders
+        const categories = document.querySelectorAll('.category1');
+        categories.forEach((category, index) => {
+            const items = category.querySelectorAll('.experience-item1');
+            const leftArrow = category.querySelector('.category-arrow.left');
+            const rightArrow = category.querySelector('.category-arrow.right');
+            let currentIndex = 0;
+            let intervalTime;
+            
+            // Set different intervals based on category
+            if (index === 0) intervalTime = 2000; // Wellness
+            else if (index === 1) intervalTime = 3000; // Dining
+            else if (index === 2) intervalTime = 2500; // Adventure
+            else intervalTime = 2200; // Spirituality
+            
+            function showNextImage() {
+                goToImage((currentIndex + 1) % items.length);
+            }
+            
+            function showPrevImage() {
+                goToImage((currentIndex - 1 + items.length) % items.length);
+            }
+            
+            function goToImage(index) {
+                items[currentIndex].classList.remove('active');
+                currentIndex = index;
+                items[currentIndex].classList.add('active');
+            }
+            
+            // Arrow click handlers
+            leftArrow.addEventListener('click', function() {
+                showPrevImage();
+                resetInterval();
+            });
+            
+            rightArrow.addEventListener('click', function() {
+                showNextImage();
+                resetInterval();
+            });
+            
+            // Auto-slide function
+            let interval = setInterval(showNextImage, intervalTime);
+            
+            function resetInterval() {
+                clearInterval(interval);
+                interval = setInterval(showNextImage, intervalTime);
+            }
+            
+            // Pause on hover
+            category.addEventListener('mouseenter', () => clearInterval(interval));
+            category.addEventListener('mouseleave', () => {
+                interval = setInterval(showNextImage, intervalTime);
+            });
+        });
+        
+        // Group navigation
+        function goToGroup(groupIndex) {
+            currentGroup = groupIndex;
+            wrapper.style.transform = `translateX(-${currentGroup * 50}%)`;
+        }
+        
+        prevArrow.addEventListener('click', function() {
+            goToGroup((currentGroup - 1 + groupCount) % groupCount);
+        });
+        
+        nextArrow.addEventListener('click', function() {
+            goToGroup((currentGroup + 1) % groupCount);
+        });
+    });
+</script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      let currentIndex = 0;
+      const track = document.querySelector('.carousel-track');
+      const boxes = document.querySelectorAll('.suite-box');
+      const container = document.querySelector('.carousel-container');
+      let boxWidthWithGap;
+      const slidesPerClick = 2;
+      let maxIndex;
+  
+      // Initialize the carousel
+      function initCarousel() {
+          // Clone first two slides and append to end for seamless looping
+          track.appendChild(boxes[0].cloneNode(true));
+          track.appendChild(boxes[1].cloneNode(true));
+          
+          updateCarouselMetrics();
+      }
+  
+      function updateCarouselMetrics() {
+          const boxRect = boxes[0].getBoundingClientRect();
+          boxWidthWithGap = boxRect.width + 40; // Include gap
+          maxIndex = boxes.length - 1; // Adjusted for cloned items
+      }
+  
+      function updateCarouselPosition() {
+          const offset = currentIndex * boxWidthWithGap;
+          track.style.transform = `translateX(-${offset}px)`;
+          
+          // Handle seamless looping
+          if (currentIndex >= boxes.length) {
+              setTimeout(() => {
+                  track.style.transition = 'none';
+                  currentIndex = 0;
+                  updateCarouselPosition();
+                  setTimeout(() => {
+                      track.style.transition = 'transform 0.5s ease';
+                  }, 50);
+              }, 500);
+          }
+          else if (currentIndex < 0) {
+              setTimeout(() => {
+                  track.style.transition = 'none';
+                  currentIndex = boxes.length - slidesPerClick;
+                  updateCarouselPosition();
+                  setTimeout(() => {
+                      track.style.transition = 'transform 0.5s ease';
+                  }, 50);
+              }, 500);
+          }
+      }
+  
+      function moveSlide(step) {
+          currentIndex += step * slidesPerClick;
+          updateCarouselPosition();
+      }
+  
+      // Initialize
+      initCarousel();
+      window.addEventListener('resize', updateCarouselMetrics);
+      window.moveSlide = moveSlide;
+  });
+  </script>
+
+<!-- Experience Section -->
   <script>
   // JavaScript for carousel functionality
 let currentSlide1 = 0;
@@ -438,6 +702,7 @@ document.addEventListener('DOMContentLoaded', initCarousel);
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
+<!-- Suite Slider -->
   <script>
     let suiteIndex = 0;
     const suiteImages = document.getElementById('suiteImages');
@@ -469,7 +734,8 @@ document.addEventListener('DOMContentLoaded', initCarousel);
     // Initialize
     updateSuiteSlider();
   </script>
-  
+ 
+ <!-- Hotel Image Slider -->
   <script>
     (function () {
       let currentHotelImage = 0;
@@ -526,48 +792,72 @@ document.addEventListener('DOMContentLoaded', initCarousel);
     }
   </script>
   
+<!-- main section -->  
   <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll(".slides img");
-    const slideContainer = document.getElementById("slideContainer");
-    const indicatorsContainer = document.getElementById("indicators");
-  
-    function updateIndicators() {
-      indicatorsContainer.innerHTML = "";
-      slides.forEach((_, i) => {
-        const dot = document.createElement("div");
-        dot.classList.toggle("active", i === currentSlide);
-        dot.addEventListener("click", () => moveToSlide(i));
-        indicatorsContainer.appendChild(dot);
-      });
-    }
-  
-    function moveSlide(step) {
-      currentSlide = (currentSlide + step + slides.length) % slides.length;
-      updateSlider();
-    }
-  
-    function moveToSlide(index) {
-      currentSlide = index;
-      updateSlider();
-    }
-  
-    function updateSlider() {
-      const slideWidth = slides[0].clientWidth;
-      slideContainer.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-      updateIndicators();
-    }
-  
-    // Optional: Auto slide
-    setInterval(() => moveSlide(1), 5000);
-  
-    window.addEventListener("resize", updateSlider);
-    window.addEventListener("load", () => {
-      updateSlider();
-      updateIndicators();
+    document.addEventListener('DOMContentLoaded', function() {
+        let currentSlide = 0;
+        const slides = document.querySelectorAll(".slides img");
+        const slideContainer = document.getElementById("slideContainer");
+        const indicatorsContainer = document.getElementById("indicators");
+        let autoSlideInterval;
+    
+        function updateIndicators() {
+            indicatorsContainer.innerHTML = "";
+            slides.forEach((_, i) => {
+                const dot = document.createElement("div");
+                dot.classList.toggle("active", i === currentSlide);
+                dot.addEventListener("click", () => moveToSlide(i));
+                indicatorsContainer.appendChild(dot);
+            });
+        }
+    
+        function moveSlide(step) {
+            currentSlide = (currentSlide + step + slides.length) % slides.length;
+            updateSlider();
+            resetAutoSlide();
+        }
+    
+        function moveToSlide(index) {
+            currentSlide = index;
+            updateSlider();
+            resetAutoSlide();
+        }
+    
+        function updateSlider() {
+            const slideWidth = slides[0].clientWidth;
+            slideContainer.style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+            updateIndicators();
+        }
+    
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            autoSlideInterval = setInterval(() => moveSlide(1), 5000);
+        }
+    
+        function initSlider() {
+            // Make sure images are loaded
+            if (slides[0].complete) {
+                updateSlider();
+                updateIndicators();
+            } else {
+                slides[0].addEventListener('load', function() {
+                    updateSlider();
+                    updateIndicators();
+                });
+            }
+            document.querySelector('.arrow.left').addEventListener('click', () => moveSlide(-1));
+    document.querySelector('.arrow.right').addEventListener('click', () => moveSlide(1));
+            // Start auto-slide
+            autoSlideInterval = setInterval(() => moveSlide(1), 5000);
+            
+            // Handle window resize
+            window.addEventListener("resize", updateSlider);
+        }
+    
+        // Initialize the slider
+        initSlider();
     });
-  </script>
-  
+    </script>
 
   <script>
     // JavaScript to handle the dropdown toggle on click
@@ -589,5 +879,6 @@ document.addEventListener('DOMContentLoaded', initCarousel);
       });
     });
   </script>
+
 </body>
 </html>
